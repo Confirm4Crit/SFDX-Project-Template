@@ -1,0 +1,26 @@
+{
+    "devDependencies": {
+        "@lwc/eslint-plugin-lwc": "^0.6.0",
+        "@salesforce/eslint-config-lwc": "^0.3.0",
+        "@salesforce/lwc-jest": "^0.4.14",
+        "babel-eslint": "^10.0.2",
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb": "^17.1.1",
+        "eslint-plugin-import": "^2.18.1",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.14.2",
+        "jest": "^24.8.0",
+        "prettier": "^1.18.2",
+        "prettier-plugin-apex": "^1.0.0-rc.5"
+    },
+    "scripts": {
+        "lint:lwc": "eslint **/lwc/**",
+        "test:unit": "lwc-jest",
+        "test:unit:watch": "lwc-jest --watch",
+        "test:unit:debug": "lwc-jest --debug"
+    },
+    "dependencies": {
+        "vscode-lwc-snippets": "^1.1.1"
+    }
+}
