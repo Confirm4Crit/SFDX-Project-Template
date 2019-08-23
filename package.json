@@ -12,7 +12,7 @@
         "eslint-plugin-react": "^7.14.2",
         "jest": "^24.8.0",
         "prettier": "^1.18.2",
-        "prettier-plugin-apex": "^1.0.0-rc.5"
+        "prettier-plugin-apex": "^1.0.0-rc.6"
     },
     "scripts": {
         "lint:lwc": "eslint **/lwc/**",
