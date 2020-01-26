@@ -4,15 +4,15 @@
         "@salesforce/eslint-config-lwc": "^0.4.0",
         "@salesforce/lwc-jest": "^0.6.1",
         "babel-eslint": "^10.0.2",
-        "eslint": "^6.6.0",
+        "eslint": "^5.16.0",
         "eslint-config-airbnb": "^18.0.1",
-        "eslint-plugin-import": "^2.18.1",
+        "eslint-plugin-import": "^2.19.1",
         "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-prettier": "^3.1.0",
-        "eslint-plugin-react": "^7.14.2",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.17.0",
         "jest": "^24.8.0",
         "prettier": "^1.19.1",
-        "prettier-plugin-apex": "^1.0.0"
+        "prettier-plugin-apex": "^1.1.0"
     },
     "scripts": {
         "lint:lwc": "eslint **/lwc/**",
@@ -21,7 +21,7 @@
         "test:unit:debug": "lwc-jest --debug"
     },
     "dependencies": {
-        "prettier-eslint": "^9.0.0",
+        "prettier-eslint": "^9.0.1",
         "vscode-lwc-snippets": "^1.1.1"
     },
     "name": "salesforce",
